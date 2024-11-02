@@ -8,7 +8,7 @@ function EmployeeCard({ name, role, email, status, url }) { // Include url in th
   };
 
   return (
-    <div className={`relative bg-gray-100/60 shadow-md rounded-2xl p-4`}>
+    <div className={`relative bg-gray-500/30 shadow-xl  rounded-2xl p-4`}>
       {/* Top Section: Image and Name side by side */}
       <div className="flex items-center space-x-4 mb-4">
         <img 
